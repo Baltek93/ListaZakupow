@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtPresidentName"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:textSize="15sp"
+        android:layout_weight="0.7"
+        android:text="ssdfdfs"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:textSize="15sp"
+        android:layout_weight="0.3"
+        />
+</LinearLayout>

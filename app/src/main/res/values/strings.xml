@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListaZakupow</string>
+
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Log">Logowanie</string>
+    <string name="Reg">Rejestracja</string>
+    <string name="UpdateInfo">Aktualizacja Informacji</string>
+    <string name="Del">Usuniecie Uzytkownika</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_shop">ShopActivity</string>
+
+    <string name="Dodaj_Produkt">Dodaj Produkt</string>
+    <string name="PodajProdukt">Podaj produkt</string>
+</resources>

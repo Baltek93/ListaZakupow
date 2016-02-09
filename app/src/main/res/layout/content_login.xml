@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.bartosz.listazakupow.LoginActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Wpisz Swój Login"
+        android:id="@+id/LoginEditText"
+        android:layout_marginTop="60dp"
+         />
+
+    <EditText
+        android:layout_marginTop="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Wpisz hasło"
+        android:ems="10"
+        android:id="@+id/PasswordEditText"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Loguj"
+
+        android:id="@+id/LogButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
